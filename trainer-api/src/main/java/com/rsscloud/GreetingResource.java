@@ -6,11 +6,11 @@ import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
 @Path("/hello")
-public class TrainerResource {
+public class GreetingResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
-        return "Hello from Quarkus REST com Lula";
+        return "Hello from Quarkus REST";
     }
 }
